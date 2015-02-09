@@ -13,6 +13,8 @@
 		3800F9741A86AABD007CFE6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3800F9731A86AABD007CFE6E /* Images.xcassets */; };
 		3800F9771A86AABD007CFE6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3800F9751A86AABD007CFE6E /* LaunchScreen.xib */; };
 		3800F9831A86AABD007CFE6E /* App_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3800F9821A86AABD007CFE6E /* App_1Tests.swift */; };
+		38EC62381A87591B003CEE93 /* news_1073.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38EC62371A87591B003CEE93 /* news_1073.jpg */; };
+		38EC623A1A875F69003CEE93 /* news_1073 copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38EC62391A875F69003CEE93 /* news_1073 copy.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3800F97C1A86AABD007CFE6E /* App-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3800F9811A86AABD007CFE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3800F9821A86AABD007CFE6E /* App_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_1Tests.swift; sourceTree = "<group>"; };
+		38EC62371A87591B003CEE93 /* news_1073.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news_1073.jpg; sourceTree = "<group>"; };
+		38EC62391A875F69003CEE93 /* news_1073 copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "news_1073 copy.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		3800F96A1A86AABD007CFE6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38EC62391A875F69003CEE93 /* news_1073 copy.jpg */,
+				38EC62371A87591B003CEE93 /* news_1073.jpg */,
 				3800F96B1A86AABD007CFE6E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +200,9 @@
 			files = (
 				3800F9721A86AABD007CFE6E /* Main.storyboard in Resources */,
 				3800F9771A86AABD007CFE6E /* LaunchScreen.xib in Resources */,
+				38EC623A1A875F69003CEE93 /* news_1073 copy.jpg in Resources */,
 				3800F9741A86AABD007CFE6E /* Images.xcassets in Resources */,
+				38EC62381A87591B003CEE93 /* news_1073.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				3800F9881A86AABD007CFE6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3800F9891A86AABD007CFE6E /* Build configuration list for PBXNativeTarget "App-1Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				3800F98B1A86AABD007CFE6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
