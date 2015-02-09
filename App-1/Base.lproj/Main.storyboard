@@ -105,6 +105,15 @@
                                     <rect key="frame" x="35" y="78" width="318" height="66"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEg-QA-Pfj">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="35" y="176" width="178" height="51"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="vNP-W0-lDv"/>
                                 <exclude reference="VYD-8K-kMk"/>
                                 <exclude reference="xSp-MD-RFp"/>
+                                <exclude reference="PEg-QA-Pfj"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="vNP-W0-lDv"/>
                                 <include reference="VYD-8K-kMk"/>
                                 <include reference="xSp-MD-RFp"/>
+                                <include reference="PEg-QA-Pfj"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="EnterMassageTextField" destination="nsg-Cf-Csg" id="0Bn-zx-cOL"/>
                         <outlet property="EnterNameTextField" destination="vNP-W0-lDv" id="4pf-fI-qaH"/>
                         <outlet property="MassageLabel" destination="xSp-MD-RFp" id="3v1-S9-RRU"/>
+                        <outlet property="MassageLabel2" destination="PEg-QA-Pfj" id="iJn-zY-4uy"/>
                         <outlet property="mailButton" destination="VYD-8K-kMk" id="Y7T-Pr-jHT"/>
                     </connections>
                 </viewController>
